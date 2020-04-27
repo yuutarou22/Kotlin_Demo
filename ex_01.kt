@@ -4,4 +4,14 @@ import kotlin.text.*
 
 fun main() {
     println ("Hello Kotlin!")
+    var a = 10
+    var b = 5
+    println (sum(a,b))
+}
+
+/**
+ * fun method(変数:型): 戻値型
+ */
+fun sum(a: Int, b:Int): Int {
+    return a + b
 }
