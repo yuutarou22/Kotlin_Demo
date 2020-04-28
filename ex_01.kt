@@ -5,7 +5,11 @@ import kotlin.text.*
 fun main() {
     println ("Hello Kotlin!")
     var a = 10
-    var b = 5
+    val b = 5
+    println (sum(a,b))
+
+    a = 15
+    // b = 50 -> error: val cannot be reassigned
     println (sum(a,b))
 }
 
